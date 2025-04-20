@@ -1,0 +1,460 @@
+[Consumer 32660] Attached to shared memory.
+[Consumer 32660] Waiting for new version. Last seen: -1, Current: 1
+[Consumer 32660] Read: aVACVEbIli (ver: 1)
+[Consumer 32660] Updated reader count to 3
+[Consumer 32660] Waiting for new version. Last seen: 1, Current: 2
+[Consumer 32660] Read: hHEdfqllTp (ver: 2)
+[Consumer 32660] Updated reader count to 3
+[Consumer 32660] Waiting for new version. Last seen: 2, Current: 3
+[Consumer 32660] Read: CIJkVjzbyq (ver: 3)
+[Consumer 32660] Updated reader count to 3
+[Consumer 32660] Waiting for new version. Last seen: 3, Current: 4
+[Consumer 32660] Read: QyNTakxESk (ver: 4)
+[Consumer 32660] Updated reader count to 3
+[Consumer 32660] Waiting for new version. Last seen: 4, Current: 6
+[Consumer 32660] Read: kOOTZKEaLd (ver: 6)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 6, Current: 6
+[Consumer 32660] Read: TdBGyeRVkl (ver: 7)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 7, Current: 8
+[Consumer 32660] Read: HapbuxcGro (ver: 8)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 8, Current: 8
+[Consumer 32660] Read: MBEdXDNBga (ver: 9)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 9, Current: 10
+[Consumer 32660] Read: EZFIheoYBa (ver: 10)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 10, Current: 11
+[Consumer 32660] Read: MjaDMWaqCU (ver: 11)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 11, Current: 12
+[Consumer 32660] Read: ERXiUwojYW (ver: 12)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 12, Current: 13
+[Consumer 32660] Read: LeVqMcWCDa (ver: 13)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 13, Current: 14
+[Consumer 32660] Read: CRLeuxaXpD (ver: 14)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 14, Current: 15
+[Consumer 32660] Read: RTWqDsNtBn (ver: 15)
+[Consumer 32660] Updated reader count to 2
+[Consumer 32660] Waiting for new version. Last seen: 15, Current: 17
+[Consumer 32660] Read: bnnMrHLsEa (ver: 17)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 17, Current: 18
+[Consumer 32660] Read: xXvVoAnDUq (ver: 18)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 18, Current: 19
+[Consumer 32660] Read: QLCJaGprja (ver: 19)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 19, Current: 20
+[Consumer 32660] Read: NMPaygjLaO (ver: 20)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 20, Current: 21
+[Consumer 32660] Read: nZLIUBLJGh (ver: 21)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 21, Current: 22
+[Consumer 32660] Read: ZYSdIuKznv (ver: 22)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 22, Current: 23
+[Consumer 32660] Read: zCiQeizoUz (ver: 23)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 23, Current: 24
+[Consumer 32660] Read: chbpsxRdhx (ver: 24)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 24, Current: 25
+[Consumer 32660] Read: kIwEMGZYfO (ver: 25)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 25, Current: 26
+[Consumer 32660] Read: thrBzvKYJE (ver: 26)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 26, Current: 27
+[Consumer 32660] Read: annbDhaukh (ver: 27)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 27, Current: 27
+[Consumer 32660] Read: tWQrBeXccF (ver: 28)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 28, Current: 29
+[Consumer 32660] Read: svoJXNHjMq (ver: 29)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 29, Current: 30
+[Consumer 32660] Read: NMECphKpdw (ver: 30)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 30, Current: 30
+[Consumer 32660] Read: xwtPOwTnax (ver: 31)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 31, Current: 32
+[Consumer 32660] Read: usSIErwlAi (ver: 32)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 32, Current: 33
+[Consumer 32660] Read: BPwHsLqEat (ver: 33)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 33, Current: 34
+[Consumer 32660] Read: aZsVqITLxT (ver: 34)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 34, Current: 35
+[Consumer 32660] Read: iSObAsUWDv (ver: 35)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 35, Current: 36
+[Consumer 32660] Read: GGkcQeNgkq (ver: 36)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 36, Current: 37
+[Consumer 32660] Read: cNRuIiECvb (ver: 37)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 37, Current: 38
+[Consumer 32660] Read: XETLhWFbSi (ver: 38)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 38, Current: 38
+[Consumer 32660] Read: YbrLdhPtPa (ver: 39)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 39, Current: 40
+[Consumer 32660] Read: lRNcNXMrbi (ver: 40)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 40, Current: 41
+[Consumer 32660] Read: VZoqmXmSAH (ver: 41)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 41, Current: 42
+[Consumer 32660] Read: CzIvkLeBGU (ver: 42)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 42, Current: 43
+[Consumer 32660] Read: dRnQwbqKUr (ver: 43)
+[Consumer 32660] Updated reader count to 2
+[Consumer 32660] Waiting for new version. Last seen: 43, Current: 45
+[Consumer 32660] Read: BDJjZvxdyd (ver: 45)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 45, Current: 46
+[Consumer 32660] Read: zCxNsvOkfk (ver: 46)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 46, Current: 47
+[Consumer 32660] Read: CACuKkbSeA (ver: 47)
+[Consumer 32660] Updated reader count to 2
+[Consumer 32660] Waiting for new version. Last seen: 47, Current: 49
+[Consumer 32660] Read: WiItxDqlNv (ver: 49)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 49, Current: 49
+[Consumer 32660] Read: XRVzmGlnaS (ver: 50)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 50, Current: 51
+[Consumer 32660] Read: qcauRTBzkj (ver: 51)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 51, Current: 52
+[Consumer 32660] Read: hITsbSxrdM (ver: 52)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 52, Current: 53
+[Consumer 32660] Read: oDEkcssohU (ver: 53)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 53, Current: 54
+[Consumer 32660] Read: IxWItpdUOn (ver: 54)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 54, Current: 55
+[Consumer 32660] Read: GxVbryUOrz (ver: 55)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 55, Current: 56
+[Consumer 32660] Read: dGcjsHBmxk (ver: 56)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 56, Current: 57
+[Consumer 32660] Read: gfIEpDTsaj (ver: 57)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 57, Current: 57
+[Consumer 32660] Read: iGGFjYGFoX (ver: 58)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 58, Current: 59
+[Consumer 32660] Read: frfJAZSDlR (ver: 59)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 59, Current: 60
+[Consumer 32660] Read: qTyYxNdSId (ver: 60)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 60, Current: 61
+[Consumer 32660] Read: bQlkXXKDCA (ver: 61)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 61, Current: 61
+[Consumer 32660] Read: djuKvwKnax (ver: 62)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 62, Current: 63
+[Consumer 32660] Read: HqrfQqTvjB (ver: 63)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 63, Current: 64
+[Consumer 32660] Read: zMTmyQjiWM (ver: 64)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 64, Current: 65
+[Consumer 32660] Read: lZxFJSbVID (ver: 65)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 65, Current: 66
+[Consumer 32660] Read: tpvmulePjn (ver: 66)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 66, Current: 67
+[Consumer 32660] Read: qkCLwaeiLa (ver: 67)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 67, Current: 68
+[Consumer 32660] Read: wWBTdMMeku (ver: 68)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 68, Current: 69
+[Consumer 32660] Read: IfJdrFRvvC (ver: 69)
+[Consumer 32660] Updated reader count to 2
+[Consumer 32660] Waiting for new version. Last seen: 69, Current: 71
+[Consumer 32660] Read: hoCIKFWYKg (ver: 71)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 71, Current: 72
+[Consumer 32660] Read: UUlfzeKScf (ver: 72)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 72, Current: 73
+[Consumer 32660] Read: untgeURVzl (ver: 73)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 73, Current: 74
+[Consumer 32660] Read: aGcCQMiMKu (ver: 74)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 74, Current: 75
+[Consumer 32660] Read: vgQilpnVKp (ver: 75)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 75, Current: 76
+[Consumer 32660] Read: DeeyNisgFt (ver: 76)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 76, Current: 77
+[Consumer 32660] Read: rFBVKTHuhT (ver: 77)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 77, Current: 78
+[Consumer 32660] Read: OCBgLMXAkH (ver: 78)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 78, Current: 79
+[Consumer 32660] Read: PNoTNDDHJi (ver: 79)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 79, Current: 80
+[Consumer 32660] Read: CCOdaayjuF (ver: 80)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 80, Current: 81
+[Consumer 32660] Read: dKKEQXTNxd (ver: 81)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 81, Current: 82
+[Consumer 32660] Read: XOsNjfqMoB (ver: 82)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 82, Current: 83
+[Consumer 32660] Read: UQFkvFMTPg (ver: 83)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 83, Current: 84
+[Consumer 32660] Read: auQmAijVyi (ver: 84)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 84, Current: 85
+[Consumer 32660] Read: YvySiHzyVN (ver: 85)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 85, Current: 86
+[Consumer 32660] Read: BQDgCAoptF (ver: 86)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 86, Current: 87
+[Consumer 32660] Read: XWZOibyUXW (ver: 87)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 87, Current: 88
+[Consumer 32660] Read: Exrdqbmrbi (ver: 88)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 88, Current: 88
+[Consumer 32660] Read: fCAklcLzTG (ver: 89)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 89, Current: 90
+[Consumer 32660] Read: eRCFhnGFhD (ver: 90)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 90, Current: 91
+[Consumer 32660] Read: CnbvqTxDky (ver: 91)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 91, Current: 92
+[Consumer 32660] Read: LRDlEOPRPl (ver: 92)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 92, Current: 93
+[Consumer 32660] Read: xvECaLPiSy (ver: 93)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 93, Current: 94
+[Consumer 32660] Read: MWLpsEKrJw (ver: 94)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 94, Current: 95
+[Consumer 32660] Read: ruoUhuIylZ (ver: 95)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 95, Current: 96
+[Consumer 32660] Read: JkunMuAdDt (ver: 96)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 96, Current: 97
+[Consumer 32660] Read: dRRPIjVUcE (ver: 97)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 97, Current: 98
+[Consumer 32660] Read: quAgojAzHn (ver: 98)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 98, Current: 99
+[Consumer 32660] Read: aTyvIMPjsU (ver: 99)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 99, Current: 100
+[Consumer 32660] Read: evnVMxHHrl (ver: 100)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 100, Current: 101
+[Consumer 32660] Read: lIFnOwwRxG (ver: 101)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 101, Current: 102
+[Consumer 32660] Read: exzeSJRkSj (ver: 102)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 102, Current: 103
+[Consumer 32660] Read: GygUuTrDAJ (ver: 103)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 103, Current: 104
+[Consumer 32660] Read: OoTWdHUAar (ver: 104)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 104, Current: 105
+[Consumer 32660] Read: gfqhLLQCVl (ver: 105)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 105, Current: 106
+[Consumer 32660] Read: ndJWzFPtKR (ver: 106)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 106, Current: 107
+[Consumer 32660] Read: EbHxXLGRNH (ver: 107)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 107, Current: 108
+[Consumer 32660] Read: KvoCCZnUeK (ver: 108)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 108, Current: 109
+[Consumer 32660] Read: fTOrPPWgiH (ver: 109)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 109, Current: 110
+[Consumer 32660] Read: AMIhjhusAh (ver: 110)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 110, Current: 111
+[Consumer 32660] Read: BkCrMGqCBW (ver: 111)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 111, Current: 112
+[Consumer 32660] Read: miQCzhswoA (ver: 112)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 112, Current: 113
+[Consumer 32660] Read: FOPPxAWSSY (ver: 113)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 113, Current: 114
+[Consumer 32660] Read: BtieKwmDYN (ver: 114)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 114, Current: 115
+[Consumer 32660] Read: bNWtpXBjVr (ver: 115)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 115, Current: 116
+[Consumer 32660] Read: KAHzRGZpau (ver: 116)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 116, Current: 117
+[Consumer 32660] Read: nCpXiCuuHU (ver: 117)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 117, Current: 118
+[Consumer 32660] Read: iIjGcbDfkz (ver: 118)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 118, Current: 119
+[Consumer 32660] Read: wwBFVtlxIO (ver: 119)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 119, Current: 120
+[Consumer 32660] Read: tyqIvykPSt (ver: 120)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 120, Current: 121
+[Consumer 32660] Read: mCcvKewQjj (ver: 121)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 121, Current: 122
+[Consumer 32660] Read: phFsodnbAy (ver: 122)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 122, Current: 123
+[Consumer 32660] Read: PvWfdrfQJY (ver: 123)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 123, Current: 124
+[Consumer 32660] Read: jxclSNRRDC (ver: 124)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 124, Current: 125
+[Consumer 32660] Read: CuJhMzkCBm (ver: 125)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 125, Current: 126
+[Consumer 32660] Read: aSHWALPFdy (ver: 126)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 126, Current: 127
+[Consumer 32660] Read: fOViCqxtJa (ver: 127)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 127, Current: 128
+[Consumer 32660] Read: WlWhskjfMm (ver: 128)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 128, Current: 129
+[Consumer 32660] Read: rMeZkEmakR (ver: 129)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 129, Current: 130
+[Consumer 32660] Read: yRFWZhmwdx (ver: 130)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 130, Current: 131
+[Consumer 32660] Read: YBkUkeftjt (ver: 131)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 131, Current: 132
+[Consumer 32660] Read: FdgmEqQsSC (ver: 132)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 132, Current: 133
+[Consumer 32660] Read: jTuqPVaDUd (ver: 133)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 133, Current: 134
+[Consumer 32660] Read: CSgMpqQWma (ver: 134)
+[Consumer 32660] Updated reader count to 2
+[Consumer 32660] Waiting for new version. Last seen: 134, Current: 136
+[Consumer 32660] Read: cKBwCSUCvO (ver: 136)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 136, Current: 137
+[Consumer 32660] Read: hXinJZgcVs (ver: 137)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 137, Current: 138
+[Consumer 32660] Read: cNnHKTQAtr (ver: 138)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 138, Current: 139
+[Consumer 32660] Read: LvDOufHokE (ver: 139)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 139, Current: 140
+[Consumer 32660] Read: ErCMFNMnPj (ver: 140)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 140, Current: 141
+[Consumer 32660] Read: htyuCjnUli (ver: 141)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 141, Current: 142
+[Consumer 32660] Read: NyEqnYYUmi (ver: 142)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 142, Current: 143
+[Consumer 32660] Read: yszCeGSsTj (ver: 143)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 143, Current: 144
+[Consumer 32660] Read: eaDCXHnkCz (ver: 144)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 144, Current: 145
+[Consumer 32660] Read: tpzziMxgil (ver: 145)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 145, Current: 146
+[Consumer 32660] Read: oHDpLjWDer (ver: 146)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 146, Current: 147
+[Consumer 32660] Read: NiUSmRzADD (ver: 147)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 147, Current: 148
+[Consumer 32660] Read: ByTazbNWJV (ver: 148)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 148, Current: 149
+[Consumer 32660] Read: JXeOOsAmVE (ver: 149)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 149, Current: 150
+[Consumer 32660] Read: EkoaEAtGay (ver: 150)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 150, Current: 151
+[Consumer 32660] Read: jBzEeYhRxQ (ver: 151)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 151, Current: 152
+[Consumer 32660] Read: ogpVVenXqK (ver: 152)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 152, Current: 153
+[Consumer 32660] Read: BwxPYbRrju (ver: 153)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 153, Current: 154
+[Consumer 32660] Read: stVRzBPHsm (ver: 154)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 154, Current: 155
+[Consumer 32660] Read: xjVNesRTpJ (ver: 155)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 155, Current: 156
+[Consumer 32660] Read: DQgaheEAYN (ver: 156)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 156, Current: 157
+[Consumer 32660] Read: UqIsJiTyPO (ver: 157)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 157, Current: 158
+[Consumer 32660] Read: nmXiBDAsYP (ver: 158)
+[Consumer 32660] Updated reader count to 1
+[Consumer 32660] Waiting for new version. Last seen: 158, Current: 159
+[Consumer 32660] Read: cBhKeoqkqo (ver: 159)
+[Consumer 32660] Updated reader count to 1
