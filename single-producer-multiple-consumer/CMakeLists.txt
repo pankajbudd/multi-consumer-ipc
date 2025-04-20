@@ -5,5 +5,5 @@ set(CMAKE_CXX_STANDARD 11)
 
 add_executable(producer src/producer.cpp)
 add_executable(consumer src/consumer.cpp)
-add_executable(cleanup src/cleanup.cpp)
+add_executable(consumer_cleanup src/cleanup.cpp)
 add_executable(producerConsumerDemo src/producerConsumerDemo.cpp)

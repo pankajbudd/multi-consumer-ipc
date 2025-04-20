@@ -5,4 +5,4 @@ set(CMAKE_CXX_STANDARD 11)
 
 add_executable(writer src/writer.cpp)
 add_executable(reader src/reader.cpp)
-add_executable(cleanup src/cleanup.cpp)
+add_executable(mutex_cleanup src/cleanup.cpp)
