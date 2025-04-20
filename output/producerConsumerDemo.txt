@@ -1,0 +1,6 @@
+Producer: Starting up
+Producer: Sleeping for 1 second
+Producer: Data ready, waiting 2 seconds
+Producer: Waiting 1 more second
+Consumer1: Got the data
+Consumer2: Got the data
