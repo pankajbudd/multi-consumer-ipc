@@ -1,101 +1,89 @@
-# Multi-Consumer IPC and Additional Modules
+# Multi-Consumer IPC Examples
 
-This repository contains implementations of various C++ modules, including inter-process communication (IPC), mutex-based synchronization, a multi-threaded TCP server, and a single-producer multiple-consumer model. Each module is organized into its respective directory for clarity and modularity.
+This repository contains various examples demonstrating Inter-Process Communication (IPC) and thread synchronization mechanisms in C/C++.
 
-## Directory Structure
+## Project Structure
 
 ```
 .
-├── mutex-between-multiple-processes/
-│   ├── src/
-│   │   ├── main.cpp              # Entry point for mutex synchronization demo
-│   │   ├── mutex_manager.cpp     # Implementation of mutex-based synchronization
-│   └── include/
-│       └── mutex_manager.h       # Header file for mutex manager
-│   └── tests/
-│       └── test_mutex_manager.cpp # Unit tests for mutex manager
-├── multi-threaded-tcp-server/
-│   ├── src/
-│   │   ├── main.cpp              # Entry point for TCP server
-│   │   ├── tcp_server.cpp        # Multi-threaded TCP server implementation
-│   └── include/
-│       └── tcp_server.h          # Header file for TCP server
-│   └── tests/
-│       └── test_tcp_server.cpp   # Unit tests for TCP server
-├── single-producer-multiple-consumer/
-│   ├── src/
-│   │   ├── main.cpp              # Entry point for producer-consumer demo
-│   │   ├── producer.cpp          # Implementation of producer logic
-│   │   ├── consumer.cpp          # Implementation of consumer logic
-│   │   ├── ipc_manager.cpp       # Handles IPC mechanisms
-│   └── include/
-│       ├── producer.h            # Header file for producer
-│       ├── consumer.h            # Header file for consumer
-│       └── ipc_manager.h         # Header file for IPC manager
-│   └── tests/
-│       ├── test_producer.cpp     # Unit tests for producer
-│       ├── test_consumer.cpp     # Unit tests for consumer
-│       └── test_ipc.cpp          # Unit tests for IPC manager
-├── utils/
-│   ├── logger.cpp                # Logging utility implementation
-│   └── logger.h                  # Header file for logging utility
-├── docs/
-│   └── design.md                 # Detailed design documentation
-├── CMakeLists.txt                # Build configuration
-└── README.md                     # Project documentation
+├── examples/
+│   ├── condition_variables/     # Examples using pthread condition variables
+│   ├── shared_memory/          # Examples using POSIX shared memory
+│   └── semaphores/             # Examples using POSIX semaphores
+├── include/                    # Common header files
+├── src/                        # Common source files
+├── tests/                      # Test files
+└── build/                      # Build directory
 ```
 
-## Features
+## Examples
 
-- **Mutex Synchronization**: Demonstrates process synchronization using mutexes.
-- **Multi-Threaded TCP Server**: Implements a scalable TCP server using multi-threading.
-- **Single-Producer Multiple-Consumer Model**: Implements a producer-consumer pattern with IPC mechanisms.
-- **Logging Utility**: Provides a centralized logging mechanism for debugging and monitoring.
-- **Documentation**: Includes detailed design documentation for better understanding.
-- **Unit Testing**: Includes unit tests for all major components.
+### 1. Condition Variables (examples/condition_variables/)
 
-## Build and Run
+Demonstrates the use of pthread condition variables for thread synchronization:
 
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/your-username/your-repo.git
-    cd your-repo
-    ```
+- `Test1.cpp`: Basic producer-consumer pattern using condition variables
+- `Test2.cpp`: Multiple consumer threads with condition variables
+- `Test3.cpp`: Condition variable with shared memory between processes
+- `Test5.cpp`: Multiple threads with broadcast signaling
 
-2. Build the project using CMake:
-    ```bash
-    mkdir build
-    cd build
-    cmake ..
-    make
-    ```
+### 2. Shared Memory (examples/shared_memory/)
 
-3. Run the desired module:
-    - For mutex synchronization:
-        ```bash
-        ./mutex_between_multiple_processes_demo
-        ```
-    - For multi-threaded TCP server:
-        ```bash
-        ./multi_threaded_tcp_server_demo
-        ```
-    - For single-producer multiple-consumer:
-        ```bash
-        ./single_producer_multiple_consumer_demo
-        ```
+Examples of inter-process communication using POSIX shared memory:
 
-## Testing
+- Basic shared memory operations
+- Shared memory with synchronization
+- Producer-consumer pattern using shared memory
 
-Run the unit tests:
+### 3. Semaphores (examples/semaphores/)
+
+Examples demonstrating POSIX semaphores:
+
+- Binary semaphores
+- Counting semaphores
+- Named semaphores for inter-process communication
+
+## Building the Examples
+
 ```bash
+# Create build directory
+mkdir build
 cd build
-ctest
+
+# Configure with CMake
+cmake ..
+
+# Build
+make
 ```
 
-## Documentation
+## Running the Examples
 
-Refer to the [docs/design.md](docs/design.md) file for detailed design and implementation notes.
+### Condition Variables Example
+```bash
+# Run Test1
+./examples/condition_variables/Test1
+
+# Run Test2
+./examples/condition_variables/Test2
+
+# Run Test3 (requires two terminals)
+# Terminal 1
+./examples/condition_variables/Test3 producer
+# Terminal 2
+./examples/condition_variables/Test3 consumer
+
+# Run Test5
+./examples/condition_variables/Test5
+```
+
+## Requirements
+
+- C++11 or later
+- POSIX-compliant operating system
+- CMake 3.10 or later
+- pthread library
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
