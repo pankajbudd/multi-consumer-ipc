@@ -1,119 +1,168 @@
-# 🧠 Flip-Flop Shared Memory IPC
+# 🚀 Multi-Threaded TCP Server with Epoll
 
-This project demonstrates inter-process communication (IPC) in C++ using **POSIX shared memory**, **mutexes**, and **condition variables**. It implements a **single producer, multiple consumer** model using a **flip-flop buffer** strategy to manage string data between processes safely and efficiently.
+This project demonstrates a high-performance TCP server implementation in C++ using **epoll** for I/O multiplexing and **multi-threading** for handling client connections. The server implements a simple echo service that efficiently handles multiple concurrent client connections.
 
 ---
 
 ## 📁 Components
 
-### ✅ `common.h`
-Defines shared constants and the `SharedMemory` structure used by all processes. It includes:
-- Two flip-flop buffers (`char buffer[2][11]`)
-- Synchronization primitives (`pthread_mutex_t`, `pthread_cond_t`)
-- Control variables (`current_index`, `reader_count`, `version`, etc.)
+### ✅ `server.cpp`
+The main server implementation that includes:
+- Non-blocking socket operations
+- Epoll-based I/O multiplexing
+- Multi-threaded client handling
+- Simple echo server functionality
 
----
-
-### 🧑‍🏭 `producer.cpp`
-Creates and initializes the shared memory region. It:
-- Writes a random string to the shared memory.
-- Switches buffers after all consumers have read the current data.
-- Uses `pthread_mutex` and `pthread_cond_broadcast` for coordination.
-
----
-
-### 👀 `consumer.cpp`
-Each consumer:
-- Connects to the shared memory region.
-- Waits for new data using condition variables.
-- Reads from the current buffer when notified and increments `reader_count`.
-
----
-
-### 🧹 `cleanup.cpp`
-Utility to clean up shared memory:
-```bash
-./cleanup
-```
-Calls `shm_unlink` to remove the shared memory object after use.
+### ✅ `client.cpp`
+An interactive TCP client that:
+- Accepts optional command line arguments for server IP and port
+- Uses default values (127.0.0.1:9090) if not specified
+- Supports continuous chat with the server
+- Gracefully handles Ctrl+C for clean shutdown
+- Provides real-time echo responses
 
 ---
 
 ## 🛠️ Build Instructions
 
 ```bash
-g++ -o producer producer.cpp -pthread
-g++ -o consumer consumer.cpp -pthread
-g++ -o cleanup cleanup.cpp -pthread
+# Build the server
+g++ -o server server.cpp -pthread
+
+# Build the client
+g++ -o client client.cpp
 ```
 
 ---
 
 ## 🚀 Run Instructions
 
-### 1. Start the Producer
+### 1. Start the Server
 ```bash
-./producer
+./server
 ```
 
-### 2. Start up to 2 Consumers (in separate terminals)
+### 2. Run the Client
 ```bash
-./consumer
+# Using default values (127.0.0.1:9090)
+./client
+
+# Or specify custom server and port
+./client <server_ip> <port>
 ```
 
-### 3. Cleanup After Use
+Examples:
 ```bash
-./cleanup
+# Connect to localhost with default port
+./client
+
+# Connect to specific IP and port
+./client 192.168.1.10 9090
 ```
 
-> ⚠️ Make sure not to exceed `MAX_CONSUMERS` (default: 2), as defined in `common.h`.
+Or using netcat:
+```bash
+nc localhost 9090
+```
 
 ---
 
-## 🔍 SharedMemory Layout
+## 🔍 Key Features
 
+- **Non-blocking I/O**: All sockets are set to non-blocking mode for better performance
+- **Epoll-based I/O Multiplexing**: Efficient handling of multiple file descriptors
+- **Multi-threaded Architecture**: Each client connection is handled in a separate thread
+- **Simple Echo Service**: Server echoes back any data received from clients
+- **Interactive Client**: Continuous chat functionality with graceful shutdown
+- **Signal Handling**: Clean shutdown on Ctrl+C
+- **Default Configuration**: Easy local testing with default values
+
+---
+
+## 📌 Implementation Details
+
+### Socket Configuration
 ```cpp
-struct SharedMemory {
-    char buffer[2][11];        // Two alternating string buffers
-    int current_index;         // Current buffer index being written/read
-    int reader_count;          // Number of consumers who read the latest message
-    int active_consumers;      // Total number of active consumers
-    int version;               // Incremented on each write for synchronization
-
-    pthread_mutex_t mutex;
-    pthread_cond_t cond;
-};
+constexpr int MAX_EVENTS = 10;    // Maximum epoll events
+constexpr int PORT = 9090;        // Server port
+constexpr int NUM_THREADS = 4;    // Number of worker threads
 ```
 
----
+### Client Configuration
+```cpp
+constexpr const char* DEFAULT_SERVER_IP = "127.0.0.1";  // Default server address
+constexpr int DEFAULT_PORT = 9090;                      // Default port number
+```
 
-## 📌 Highlights
-
-- 🌀 **Flip-flop buffer** ensures clean alternation between writes and reads.
-- 🔐 **Thread-safe synchronization** using `pthread_mutex` and `pthread_cond`.
-- 🧵 **Multiple consumers** can safely read the same data.
-- 💬 **Random string generation** simulates message/data broadcast from producer.
+### Key Components
+- **Non-blocking Sockets**: Using `fcntl` with `O_NONBLOCK` flag
+- **Epoll Event Loop**: Efficient I/O event monitoring
+- **Thread Management**: One thread per client connection
+- **Buffer Management**: 1024-byte buffer for client data
+- **Signal Handling**: SIGINT (Ctrl+C) handling for graceful shutdown
 
 ---
 
 ## 🧪 Example Output
 
+Server:
 ```
-[Producer] Wrote: YyDjNvQxZL to buffer index: 0 (version: 1)
-[Consumer 10012] Read: YyDjNvQxZL (ver: 1)
-[Producer] Flipping buffer index to 1
-[Producer] Wrote: AdGpLcVkzR to buffer index: 1 (version: 2)
-...
+🔌 Server listening on port 9090
+🟢 New client connected (fd: 4)
+📨 Received from client: Hello, Server!
+📨 Received from client: How are you?
+🔴 Client disconnected (fd: 4)
+```
+
+Client:
+```
+Connected to server at 127.0.0.1:9090
+Type your messages (Ctrl+C to exit):
+> Hello, Server!
+Server: Hello, Server!
+> How are you?
+Server: How are you?
+^C
+Gracefully shutting down...
+Closing connection...
 ```
 
 ---
 
 ## 📦 Possible Enhancements
 
-- Graceful shutdown handling for producer and consumers.
-- Dynamic consumer detection.
-- Data logging or file output.
-- Support for variable-length strings.
+- Implement a thread pool instead of creating a new thread for each client
+- Add support for SSL/TLS encryption
+- Implement proper error handling and logging
+- Add configuration file support
+- Implement graceful shutdown
+- Add support for different protocols (HTTP, WebSocket, etc.)
+- Implement connection pooling
+- Add metrics and monitoring
+- Add support for sending files
+- Add timeout handling
+- Add message history
+- Implement readline support for better input handling
+- Add support for multiple simultaneous connections
+- Add command line argument parsing library (e.g., getopt)
+- Add configuration file support for client settings
+
+---
+
+## 🔒 Security Considerations
+
+- The current implementation is a basic echo server
+- In a production environment, consider:
+  - Adding input validation
+  - Implementing rate limiting
+  - Adding authentication
+  - Using SSL/TLS for encryption
+  - Implementing proper error handling
+  - Validating client input
+  - Implementing connection timeouts
+  - Adding message encryption
+  - Implementing user authentication
+  - Validating IP addresses and ports
 
 ---
 
